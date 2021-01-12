@@ -4,6 +4,7 @@
   "description": "A software which tracks and logs issues in a other softwares and assign it to different developers",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
