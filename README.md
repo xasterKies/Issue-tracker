@@ -1,4 +1,4 @@
-# Issue-tracker
+# 🚀Issue-tracker
 
 This is a software which tracks the issues, bugs in a software and assign issues to specific developers. It is built with the MERN stack(MongoDb, Express.js, React.js, Node.js). 
 
