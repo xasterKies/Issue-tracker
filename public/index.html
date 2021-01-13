@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src = "https://unpkg.com/react@16/umd/react.development.js"></script>
     <script src = "htttps://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    
     <title>Issue Tracker</title>
 </head>
 <body>
     <div id="contents"></div>
 
-    <script type="text/babel" src="/App.jsx"></script>
+   `   <script>
+         const element = React.creatElement('div', {title: 'Outer div'},
+            React.creatElement('h1', null, 'Hello World')
+         );
+       </script>
+
+       <script type="text/babel" src="/App.jsx"></script>
 </body>
 </html>
