@@ -1,10 +1,10 @@
 # Issue-tracker👨‍💻
 
 ## Logger🚀
-🛠️ This is a Logging software which tracks the issues, bugs in a software and assign issues to specific developers. It is built with the MERN stack(MongoDb, Express.js, React.js, Node.js). 
+ This is a Logging software which tracks the issues, bugs in a software and assign issues to specific developers. It is built with the MERN stack(MongoDb, Express.js, React.js, Node.js). 
 
 
-## Functionalities:  
+## 🛠️Functionalities:  
 - User Authentication   
 - CRUD functionality depending on  the level of the developer
   - C -> Create
@@ -12,15 +12,15 @@
   - U -> Update
   - D -> Delete
 
-## Capabilities: 
+## 🧰Capabilities: 
 
-  ### General Attributes
+  ### 👉General Attributes
 - The user should be able to view a list of issues with an ability to filter the list by various parameters
 - The user should be to add new issues, by supplying the initial value of issue's field
 - The user should be able to edit and update an issue by changing field values
 - The user should be able to delete an issue
 
-  ### Issue Attributes
+  ### 👉Issue Attributes
 - A title that summarise the issue (text)
 - An owner to whom the issue is assigned
 - A status indicator
