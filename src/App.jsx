@@ -26,7 +26,14 @@ class IssueTable extends React.Component {
     render() {
         const rowStyle = {border: "1px solid silver", padding: 4}
         return (
-            <div>This is a placeholder for the issue table</div>
+            <table style = {{borderCollapse: "collapse"}}>
+                <thead>
+                    <tr>
+                        <th style={rowStyle}>ID</th>
+                        <th style={rowStyle}>Title</th>
+                    </tr>
+                </thead>
+            </table>
         )
     }
 }
