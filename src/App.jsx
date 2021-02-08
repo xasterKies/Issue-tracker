@@ -1,3 +1,4 @@
+
 class IssueList extends React.Component {
     render() {
         return(
@@ -23,6 +24,7 @@ class IssueFilter extends React.Component {
 
 class IssueTable extends React.Component {
     render() {
+        const rowStyle = {border: "1px solid silver", padding: 4}
         return (
             <div>This is a placeholder for the issue table</div>
         )
@@ -40,7 +42,7 @@ class IssueAdd extends React.Component {
                     </tr>
                 </thead>
                 <tbody>
-                    <IssueRow/>
+                    <IssueRow rowStyle={rowStyle} issue_id={1}/>
                     <IssueRow/>
                 </tbody>
             </table>
