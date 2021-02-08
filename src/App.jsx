@@ -53,7 +53,9 @@ class IssueRow extends React.Component {
         const style = this.props.rowStyle;
         return (
             <tr>
-                <td>{this.props.issue_id}</td>
+                <td style = {style}>{this.props.issue_id}</td>
+                <td style = {style}>{this.props.issue_id}</td>
+
             </tr>
         )
     }
